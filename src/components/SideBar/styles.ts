@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const NavBar = styled.nav`
   min-width: 340px;
   background-color: #0c365a;
-  height: 100%;
+  height: 100vh;
   padding-left: 48px;
   padding-top: 48px;
 `;

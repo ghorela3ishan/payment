@@ -41,7 +41,7 @@ const InfoPanel = () => {
         activeLabelId={activeTab}
         handleClick={handleTabClick}
       >
-        <DebitCardsSection />
+        {activeTab === 1 ? <DebitCardsSection /> : "all cards"}
       </Tabs>
     </Main>
   );
