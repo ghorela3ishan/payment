@@ -111,3 +111,7 @@ body {
   margin: 0;
   font-family: "Open Sans";
 }
+
+a {
+  text-decoration: none;
+}
