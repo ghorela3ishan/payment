@@ -2,7 +2,6 @@ import Head from "next/head";
 import SideBar from "@/components/SideBar";
 import styled from "styled-components";
 import Link from "next/link";
-
 const Main = styled.div`
   display: grid;
   grid-template-columns: 340px 1fr;
@@ -23,9 +22,9 @@ export default function Home() {
       </Head>
       <Main>
         <SideBar />
-
         <Link href="/cards">
-          This is home page (Under Construction). Click here to view your Cards
+          This is credits page (Under Construction). Click here to view your
+          Cards
         </Link>
       </Main>
     </>

@@ -16,22 +16,22 @@ const SIDE_NAV_ITEMS = [
   {
     label: "Cards",
     Icon: Card,
-    path: "/",
+    path: "/cards",
   },
   {
     label: "Payments",
     Icon: Paymnents,
-    path: "/",
+    path: "/payments",
   },
   {
     label: "Credit",
     Icon: Credit,
-    path: "/",
+    path: "/credit",
   },
   {
     label: "Settings",
     Icon: Account,
-    path: "/",
+    path: "/settings",
   },
 ];
 
@@ -44,9 +44,9 @@ const SideBar = () => {
       </SubTitle>
       <NavItems>
         {SIDE_NAV_ITEMS.map((item) => {
-          const { label, Icon } = item;
+          const { label, Icon, path } = item;
           return (
-            <Link href="/" key={label}>
+            <Link href={path} key={label}>
               <NavItem>
                 <Icon />
                 <span>{label}</span>

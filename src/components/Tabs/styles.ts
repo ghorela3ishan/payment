@@ -22,5 +22,6 @@ export const Content = styled.div`
   border-radius: 8px;
   width: 100%;
   height: 100%;
-  box-shadow: 2px 2px 2px 2px #00000014;
+  box-shadow: 0px 0px 2px 2px #00000014;
+  min-height: 70vh;
 `;

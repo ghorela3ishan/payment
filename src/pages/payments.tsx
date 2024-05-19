@@ -23,9 +23,9 @@ export default function Home() {
       </Head>
       <Main>
         <SideBar />
-
         <Link href="/cards">
-          This is home page (Under Construction). Click here to view your Cards
+          This is payments page (Under Construction). Click here to view your
+          Cards
         </Link>
       </Main>
     </>

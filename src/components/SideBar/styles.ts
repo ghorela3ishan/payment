@@ -18,6 +18,7 @@ export const SubTitle = styled.p`
   margin-top: 19px;
   color: rgb(255, 255, 255, 0.3);
   font-size: 15px;
+  margin-right: 55px;
 `;
 
 export const NavItem = styled.div`
