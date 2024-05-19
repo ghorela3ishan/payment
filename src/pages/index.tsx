@@ -1,7 +1,13 @@
 import Head from "next/head";
 import SideBar from "@/components/SideBar";
 import InfoPanel from "@/components/InfoPanel";
-import { Main } from "./styles";
+import styled from "styled-components";
+
+const Main = styled.div`
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  column-gap: 90px;
+`;
 
 export default function Home() {
   return (
