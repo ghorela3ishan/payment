@@ -1,7 +1,7 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const NavBar = styled.nav`
-  max-width: 340px;
+  min-width: 340px;
   background-color: #0c365a;
   height: 100%;
   padding-left: 48px;
